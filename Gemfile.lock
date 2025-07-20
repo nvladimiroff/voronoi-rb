@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    voronoi-rb (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.17.2)
+    ffi (1.17.2-arm64-darwin)
+    minitest (5.25.5)
+    rake (13.3.0)
+    raylib-bindings (0.7.3)
+      ffi (~> 1.16)
+    raylib-bindings (0.7.3-arm64-darwin)
+      ffi (~> 1.16)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  minitest (~> 5.16)
+  rake (~> 13.0)
+  raylib-bindings (= 0.7.3)
+  voronoi-rb!
+
+BUNDLED WITH
+   2.6.2
